@@ -12,7 +12,14 @@ class Timer extends React.Component {
 			currentTime: this.now(),
 			timer: 0
 		};
+	}
+
+	componentDidMount() {
 		this.init();
+	}
+
+	componentWillUnmount() {
+		this.stop();
 	}
 
 	now() {
