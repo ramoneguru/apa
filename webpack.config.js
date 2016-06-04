@@ -10,17 +10,19 @@ module.exports = {
 		'./app/index.js'
 	],
 	output: {
-		filename: "index_bundle.js",
+		filename: "bundle.js",
 		path: __dirname + '/dist'
 	},
 	module: {
 		loaders: [
-			{test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+			{test: /\.js$/, exclude: /node_modules/, loader: "babel"},
 			{test: /\.css$/, loader: "style-loader!css-loader"},
 			{test: /\.scss$/, loaders: ["style", "css", "sass"]}
 		]
 	},
 	devServer: {
+		inline: true,
+		contentBase: './app',
 		historyAPIFallback: true
 	},
 	plugins: [HTMLWebpackPluginConfig]
