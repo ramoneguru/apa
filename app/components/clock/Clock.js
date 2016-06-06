@@ -10,8 +10,7 @@ class Clock extends React.Component {
 		this.state = {
 			currentTime: this.now(),
 			clockRAF: 0,
-			showMilliseconds: true,
-			immediateStop: false
+			showMilliseconds: true
 		};
 	}
 
@@ -39,10 +38,6 @@ class Clock extends React.Component {
 			currentTime: this.now(),
 			clockRAF: clockRAF
 		});
-
-		if(this.state.immediateStop) {
-			this.stop();
-		}
 	}
 
 	init() {
