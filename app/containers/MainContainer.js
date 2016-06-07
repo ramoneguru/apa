@@ -6,7 +6,11 @@
 import React from 'react';
 
 class MainContainer extends React.Component {
-	render() {
+	constructor(props) {
+		super(props);
+	}
+	
+	render(props) {
 		return (
 			<div>
 				{this.props.children}

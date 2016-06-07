@@ -1,0 +1,14 @@
+@import "../../styles/global/vars";
+
+$headerBackgroundColor: $green;
+$headerTitleColor: $white;
+
+.header {
+	background-color: $headerBackgroundColor;
+	display: flex;
+	flex-direction: column;
+	.title {
+		align-self: center;
+		color: $headerTitleColor;
+	}
+}

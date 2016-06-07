@@ -1,0 +1,14 @@
+*, :before, :after {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+label {
+	display: block;
+}
+
+.btn {
+	&.center {
+		justify-content: center;
+	}
+}

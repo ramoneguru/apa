@@ -6,20 +6,17 @@ import React from 'react';
 import HeaderContainer from '../../containers/HeaderContainer';
 import Header from '../header/Header';
 
-import { Link } from 'react-router'
+
 import { styles } from './splash.scss';
 
-function Splash(props) {
+const Splash = (props) => {
 	return (
 		<div className="splash">
 			<HeaderContainer>
 				<Header
-					title="APA Score Tracker"
+					title={props.title}
 				/>
 			</HeaderContainer>
-			<Link to="/start">
-				<button className="btn">Start Match</button>
-			</Link>
 		</div>
 	)
 }

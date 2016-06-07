@@ -1,0 +1,44 @@
+{
+	"locations": [
+		{
+			"id": 1,
+			"name": "Mission Bar",
+			"address1": "2697 Mission St",
+			"address2": "",
+			"city": "San Francisco",
+			"state": "CA",
+			"postalCode": "94110",
+			"homeTeam": "The Pool Sharks"
+		},
+		{
+			"id": 2,
+			"name": "Blind Cat",
+			"address1": "3050 24th St",
+			"address2": "",
+			"city": "San Francisco",
+			"state": "CA",
+			"postalCode": "94110",
+			"homeTeam": "RENT"
+		},
+		{
+			"id": 3,
+			"name": "Dovre Club",
+			"address1": "1498 Valencia St",
+			"address2": "",
+			"city": "San Francisco",
+			"state": "CA",
+			"postalCode": "94110",
+			"homeTeam": "Aerosmith"
+		},
+		{
+			"id": 4,
+			"name": "Clooney's",
+			"address1": "1401 Valencia St",
+			"address2": "",
+			"city": "San Francisco",
+			"state": "CA",
+			"postalCode": "94110",
+			"homeTeam": "The Pool Sharks"
+		}
+	]
+}
