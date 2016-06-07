@@ -7,8 +7,6 @@
 import React, { PropTypes } from 'react';
 import location from './location.scss';
 
-import Map from '../map/Map';
-
 const Location = (props) => {
 	return(
 		<div className="location">
@@ -29,7 +27,6 @@ const Location = (props) => {
 					Find Location
 				</button>
 			</form>
-			<Map />
 		</div>
 	)
 };

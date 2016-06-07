@@ -6,7 +6,10 @@ import React from 'react';
 import { Link } from 'react-router';
 import Splash from '../components/splash/Splash';
 import Location from '../components/location/Location';
+import Map from '../components/map/Map';
 import Axios from 'axios';
+
+import { styles } from '../components/map/map.scss';
 
 class SplashContainer extends React.Component {
 	constructor(props) {
